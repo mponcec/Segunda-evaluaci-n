@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Desempeño educacional">
+    <meta name="author" content="Mariela Ponce Caro">
+    <title>Desempeño de la educación</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Educación</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#primera">Matrículas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#segunda">PSU vs NEM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#tercera">PSU por sexo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col text-center">
+          	<h1>Desempeño educacional</h1>
+          	<h2>en la región metropolitana</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="primera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-primera"></div>
+          <div class="col-lg-6">
+          	<h3 class="mt-3">Matrículas</h3>
+            
+          	<p>En 2015 hubo 1.368.069 estudiantes matriculados en establecimientos educacionales de la Region Metropolitana. De éstos, 346.596 estaban matriculados en colegios municipales, 831.552 en colegios particulares subvencionadas, 169.414 en colegios privados y 20.507 en colegios de administración delegada.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="segunda" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mt-3">PSU vs NEM</h3>
+            <p>En 2016, el promedio PSU* en Region Metropolitana Santiago de escuelas Municipales fue 492 puntos, de escuelas Particulares Subvencionadas fue 498 puntos, de escuelas Particulares Pagadas fue 602 puntos y de escuelas de Administración Delegada fue 454 puntos.</p>
+            <p>Las comunas de mejor desempeño en PSU de Region Metropolitana Santiago son Vitacura (619,2 puntos), Lo Barnechea (601,3 puntos), y Las Condes (601,2 puntos).</p>
+            <p>*El promedio PSU es el promedio calculado a partir del puntaje obtenido en las Pruebas de Lenguaje y Comunicación y de Matemática.</p>
+          </div>
+          <div class="col-lg-6 text-right dataviz-segunda"></div>
+        </div>
+      </div>
+    </section>
+    <section id="tercera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-tercera"></div>
+          <div class="col-lg-6">
+            <h3 class="mt-3">PSU por sexo</h3>
+            <p>Hay estudios que dan cuenta que las mujeres jóvenes rinden más la PSU que sus pares masculinos, siendo mujeres un 53% en el proceso de admisión 2018, sin embargo, existe una diferencia respecto a las universidades que postulan. Así las mujeres predominan en universidades privadas  y los hombres en las tradicionales, según datos del Consejo Nacional de Educación.</p>
+            <p>Por su parte, las cifras del Demre revelaron que las mujeres obtuvieron un puntaje promedio más bajo que los hombres en cada una de las pruebas.</p>
+            <p>En Lenguaje ellas alcanzaron 505 puntos frente a 506 de los hombres; 499 versus 515 en Matemáticas; 500 versus 510 en Historia; 499 versus 514 en Ciencias.</p>
+            <p>Lo anterior, pese a que las mujeres se presentaron a rendir la prueba con un mejor promedio NEM y Ranking de Notas.</p>
+            <p>En este proceso de admisión 2018 anotaron un NEM promedio de 559 puntos (contra 529 de los hombres); mientras que el Ranking de Notas alcanzó los 583 puntos (versus los 547 masculinos).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+      	<div class="row">
+      		<div class="col">
+		        <p class="small">Desarrollado por <a href="marielaponce.95@gmail.com">Mariela Ponce Caro</a> | Seminario Gráfica Computacional I 2018, Primer Semestre</p>
+		        <ul class="list-inline small">
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#primera">Matrículas</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#segunda">PSU vs NEM</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#tercera">PSU por sexo</a>
+		          </li>
+		        </ul>
+      		</div>
+      	</div>
+      </div>
+    </footer>
+
+    <!-- Javascript de visualizaciones-->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="d3/primera.js"></script>
+	<script src="d3/segunda.js"></script>
+	<script src="d3/tercera.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+
+</html>
